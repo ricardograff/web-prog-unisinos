@@ -1,3 +1,56 @@
-h1 {color: navy}
-h2 {color: navy; text-align: center}
-p {color: black}
+h1 {
+    color: navy;
+    font-family: MS Gothic,monospace, Arial, sans-serif;    
+}
+h2 {
+    color: navy; 
+    text-align: center;
+    font-family: MS Gothic,monospace, Arial, sans-serif;
+}
+p {
+    color: #0fbc00;
+    font-family: MS Gothic,monospace, Arial, sans-serif;
+}
+body {
+    background:black;
+    color:#0fbc00;
+    font-family: MS Gothic,monospace, Arial, sans-serif;
+}
+div {
+    background: green;
+    color: black;
+    height: 200px;
+    width: 400px;
+    margin: 100px;
+    padding: 30px;
+    font-family: MS Gothic,monospace, Arial, sans-serif;
+    font-size: 28px;
+    border: 5px dotted red;
+    text-shadow: 5px
+}
+table {
+    border: 5px solid white;
+    border-collapse: collapse;
+    width: 50%;
+    
+}
+th, td {
+    border: 2px solid white;
+}
+
+#top, #middle, #bottom {
+    background: brown;
+    color: grey;
+    height: 200px;
+    width: 400px;
+    margin: 100px;
+    padding: 30px;
+    font-family: MS Gothic,monospace, Arial, sans-serif;
+    font-size: 28px;
+    border: 5px dotted blue;
+    text-shadow: 5px
+}
+
+.name {
+    font-weight: bold;
+}
